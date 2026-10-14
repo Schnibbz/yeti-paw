@@ -1,4 +1,4 @@
-# YETI PAW v1.1 — Lateral Raise Handle — Bill of Materials
+# YETI PAW v1.2 — Lateral Raise Handle — Bill of Materials
 
 Designed by **Schnibbz** · YETI STRENGTH
 
@@ -70,7 +70,7 @@ assume you get that.
 
 ## Printed parts
 
-Bambu Studio project with one part per build plate: [`yeti-paw-v1.1-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.1-PROJECT.3mf).
+Bambu Studio project with one part per build plate: [`yeti-paw-v1.2-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-PROJECT.3mf).
 STL files and settings for any other printer: [`stl/`](stl/) and [`PRINT-SETTINGS.md`](PRINT-SETTINGS.md).
 
 | Part | Qty | Material | Print time |

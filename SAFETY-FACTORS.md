@@ -1,4 +1,4 @@
-# YETI PAW v1.1 — Safety factors
+# YETI PAW v1.2 — Safety factors
 
 Designed by **Schnibbz** · YETI STRENGTH
 
@@ -10,13 +10,13 @@ Designed by **Schnibbz** · YETI STRENGTH
 
 ## Results
 
-The weakest part is the **carabiner yoke**. The side plates and the pad dowel have more margin.
+The weakest parts are the **carabiner yoke** and the **pad dowel**, about equal. The side plates have more margin.
 
 | Cable load | Yoke — static | Yoke — fatigue | Side plate — static | Side plate — fatigue | Pad dowel — static | Pad dowel — fatigue |
 |---|---|---|---|---|---|---|
-| 50 lb (23 kg) | 6.4 | 2.2 | 8.3 | 2.9 | 6.9 | 2.4 |
-| **75 lb (34 kg, rated)** | **4.2** | **1.5** | **5.5** | **2.0** | **4.6** | **1.6** |
-| 100 lb (45 kg, above rating) | 3.2 | 1.1 | 4.1 | 1.5 | 3.5 | 1.2 |
+| 50 lb (23 kg) | 7.0 | 2.4 | 8.3 | 2.9 | 6.9 | 2.4 |
+| **75 lb (34 kg, rated)** | **4.6** | **1.6** | **5.5** | **2.0** | **4.6** | **1.6** |
+| 100 lb (45 kg, above rating) | 3.5 | 1.2 | 4.1 | 1.5 | 3.5 | 1.2 |
 
 **How to read it.** A safety factor (SF) is how many times stronger the part is than the stress it sees. SF 2 means it would
 take twice the load to reach the limit.
@@ -24,10 +24,12 @@ take twice the load to reach the limit.
 - **Fatigue** is for many reps, on the order of a million. Could thousands of sessions at this load wear a crack into it?
   This is the one that matters for training, and it sets the rating.
 
-**Why 75 lb.** At 75 lb the yoke's fatigue SF is 1.5, the minimum margin used here for repeated loading.
+**Why 75 lb.** At 75 lb the lowest fatigue SF is 1.6 (yoke and pad dowel), above the 1.5 minimum used here for repeated
+loading. v1.2's stronger yoke adds margin at the same rating; it does not raise the rating.
 
 **Why the 100 lb row is shown.** It shows how quickly the margin disappears: one pull at 100 lb is still inside static
-strength (SF 3.2), but the yoke's fatigue SF drops to 1.1, which leaves no real margin for repeated use. **Do not use it above
+strength (SF 3.5 or more), but the fatigue SF of the yoke and dowel drops to 1.2, which leaves no real margin for repeated
+use. **Do not use it above
 75 lb.** The 100 lb row is not an allowance.
 
 ## How these numbers were made
@@ -48,7 +50,11 @@ strength (SF 3.2), but the yoke's fatigue SF drops to 1.1, which leaves no real 
 - **Material:** ELEGOO PETG-CF: 51 MPa along the layers, 38 MPa across them. The plate and yoke print flat, so their load
   runs along the layers.
 - **Knock-downs:**
-  - × 0.75 for printed walls and infill: **6 walls, 40 % gyroid**;
+  - × 0.75 for printed walls and infill on the side plates: **6 walls, 40 % gyroid**;
+  - × 0.90 for the yoke, printed at **100 % infill**: the material's test bars are themselves printed solid, and 0.90 keeps
+    some margin for gaps between printed lines;
+  - the yoke's 3 mm edge radius removes material at the corners of its 18 × 12.7 mm band. A 2D model can't show an edge
+    radius, so the yoke's stresses are increased by 9.6 % (the loss in bending strength of that section);
   - × 0.35 for fatigue, a rule of thumb for polymers at about a million cycles.
 - **Not modelled:**
   - print defects and poor layer bonding;

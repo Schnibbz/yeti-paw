@@ -1,8 +1,8 @@
-# YETI PAW v1.1 — Lateral Raise Handle
+# YETI PAW v1.2 — Lateral Raise Handle
 
 Designed by **Schnibbz** · YETI STRENGTH
 
-<img src="images/yeti-paw-hero.png" alt="YETI PAW v1.1 — in use orientation (render)" width="360" align="right">
+<img src="images/yeti-paw-hero.png" alt="YETI PAW — in use orientation (render)" width="360" align="right">
 
 A 3D-printed lateral-raise cable attachment. You hold the handle palm-down, the padded roller rests on your wrist, and the
 swivel yoke clips to the cable with a carabiner. The side plates and yoke are printed in PETG-CF; the handle is a Rogue H-5
@@ -20,7 +20,7 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
   Every part with a link, quantities, and cost per unit and per pair.
 
 **Print the parts**
-- **[⬇️ Download the Bambu Studio project (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.1-PROJECT.3mf)** <sub>yeti-paw-v1.1-PROJECT.3mf</sub><br>
+- **[⬇️ Download the Bambu Studio project (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-PROJECT.3mf)** <sub>yeti-paw-v1.2-PROJECT.3mf</sub><br>
   4 build plates (left plate, right plate, yoke, dowel) with all settings, supports and the PAW logo set up.<br>
   Filament 1 = black PETG-CF, filament 2 = white PETG.
 - **[STL files](stl/)**<br>
@@ -79,6 +79,10 @@ You'll need, beyond the parts in the BOM:
 
 ## Version history
 
+- **v1.2** (Oct 2026):
+  - new carabiner yoke with a 3 mm radius on every edge, printed at 100 % infill;
+  - yoke supports set to sit right against the round pivot bosses, and first-layer advice for its long leg tips;
+  - safety factors re-run for the new yoke. The rating stays at 75 lb.
 - **v1.1** (Oct 2026), first public release:
   - tangent-arc side-plate outline;
   - PAW logo;

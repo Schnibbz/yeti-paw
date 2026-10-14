@@ -1,12 +1,12 @@
-# YETI PAW v1.1 — Print settings (any printer)
+# YETI PAW v1.2 — Print settings (any printer)
 
-These are the settings the v1.1 prototypes were printed with, on a Bambu X1C. Bambu users can open
-[`yeti-paw-v1.1-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.1-PROJECT.3mf), which has everything
+These are the v1.2 settings, used on a Bambu X1C. Bambu users can open
+[`yeti-paw-v1.2-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-PROJECT.3mf), which has everything
 below already set and painted. On any other printer or slicer (PrusaSlicer, OrcaSlicer, Cura, …), use the files in
 [`stl/`](stl/) and copy these values. The STLs are already in print orientation.
 
-**Strength depends on these settings.** The safety factors assume **6 walls and 40 % gyroid** in PETG-CF on the plates and
-yoke, and **100 % infill** in the dowel. Printing lighter makes the parts weaker than stated.
+**Strength depends on these settings.** The safety factors assume **6 walls and 40 % gyroid** in PETG-CF on the plates, and
+**100 % infill** in the yoke and the dowel. Printing lighter makes the parts weaker than stated.
 
 ## Material and printer
 
@@ -27,8 +27,26 @@ yoke, and **100 % infill** in the dowel. Printing lighter makes the parts weaker
 | Part | Orientation | Infill | Supports | Time (X1C) |
 |---|---|---|---|---|
 | Side plate L and R | **Outer face DOWN** (the logo face is on the bed) | 6 walls, 40 % gyroid | See below | ≈ 4.3 h each |
-| Carabiner yoke | **Flat, band face down**. The eye's flange pocket faces UP. | 6 walls, 40 % gyroid | Under the two pivot bosses only, **none inside the Ø12 pivot bores** | ≈ 2.9 h |
+| Carabiner yoke | **Flat, band face down**. The eye's flange pocket faces UP. | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 2.6 h |
 | Pad dowel | **Upright**, standing on one end | **100 %** (rectilinear) | **Under the shoulder** where the Ø25.4 body overhangs the bottom D-stub, about 10 mm up. **None in the threaded holes.** 5 mm brim. | ≈ 3.4 h |
+
+## Yoke — the details that matter
+
+Every edge of the yoke has a 3 mm radius, including the round pivot bosses where they curve down to the bed. The supports
+must sit right against that curve; if they stand off it, the boss prints onto air and sags into a flat 45° slope.
+
+| Setting | Value |
+|---|---|
+| Support type | Normal, **painted / enforcer only** under the two pivot bosses. Block everything else, including the 3 mm radius along the bottom edge and the Ø12 bores. |
+| Support style | **Snug** (hugs the overhang) rather than grid |
+| Top Z distance | **Exactly one layer**: 0.2 mm at 0.2 mm layers. Some slicers round the gap to whole layers, so 0.3 becomes 0.4. |
+| XY distance | 0.35 mm |
+| Top interface | 3 layers at 0.25 mm spacing |
+| Bed | Textured PEI, 70–75 °C |
+
+**Keep the leg tips down.** The yoke is long and its leg tips curl if air blows across them in the first layers:
+- leave at least 30 mm between the yoke and the edge of the plate;
+- on an enclosed printer with an exhaust or chamber fan, keep that fan off for the first 15 layers or so (about 3 mm).
 
 ## Side plates — the details that matter
 
