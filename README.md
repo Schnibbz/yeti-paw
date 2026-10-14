@@ -32,6 +32,9 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 - **[STEP files](step/)**<br>
   The four parts as CAD solids, posed like the STLs. The side plates' 3 mm edge radius is only in the STLs and the 3MF, so
   add it in your CAD if you need it (outline and window, both faces).
+- **[Machined aluminium side plates (CNC)](CNC-NOTES.md)**<br>
+  STEP files and a shop drawing for having the two side plates machined instead of printed, with ordering and finishing
+  notes. Use these files for a machine shop, not the ones in `step/`.
 
 **Put it together**
 - **[Assembly sheets (PDF)](yeti-paw-assembly-sheets.pdf)**<br>
