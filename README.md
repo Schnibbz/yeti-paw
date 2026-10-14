@@ -28,6 +28,11 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 - **[Print settings for any printer](PRINT-SETTINGS.md)**<br>
   Orientation, layers, walls and infill, supports and logo painting.
 
+**Edit or remix it**
+- **[STEP files](step/)**<br>
+  The four parts as CAD solids, posed like the STLs. The side plates' 3 mm edge radius is only in the STLs and the 3MF, so
+  add it in your CAD if you need it (outline and window, both faces).
+
 **Put it together**
 - **[Assembly sheets (PDF)](yeti-paw-assembly-sheets.pdf)**<br>
   Exploded views of the handle, yoke (with pivot section) and pad. Build order below.
