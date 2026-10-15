@@ -1,8 +1,10 @@
 # YETI PAW v1.2 — Print settings (any printer)
 
-These are the v1.2 settings, used on a Bambu X1C. Bambu users can open
-[`yeti-paw-v1.2-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-PROJECT.3mf), which has everything
-below already set and painted. On any other printer or slicer (PrusaSlicer, OrcaSlicer, Cura, …), use the files in
+These are the v1.2 settings, used on a Bambu X1C. Bambu users can open the three projects, which have everything below
+already set and painted:
+[side plates](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-plates-PROJECT.3mf) (both on one bed),
+[yoke](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf) and
+[pad dowel](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf). On any other printer or slicer (PrusaSlicer, OrcaSlicer, Cura, …), use the files in
 [`stl/`](stl/) and copy these values. The STLs are already in print orientation.
 
 **Strength depends on these settings.** The safety factors assume **6 walls and 40 % gyroid** in PETG-CF on the plates, and
@@ -16,7 +18,7 @@ below already set and painted. On any other printer or slicer (PrusaSlicer, Orca
 | Logo | White PETG (SUNLU), about 18 g per Yeti Paw (both plates) |
 | Nozzle | **0.4 mm hardened steel**: CF wears out brass |
 | Dry the filament | 65 °C for 8–10 h before printing. Wet PETG strings and bonds poorly. |
-| Bed | **Textured PEI, 70 °C**. It gives the outer face its texture. Smooth PEI or glass also work, with glue stick as a release agent. |
+| Bed | **Textured PEI: 75 °C** for the side plates and the yoke, 70 °C for the dowel. It gives the outer face its texture. Smooth PEI or glass also work, with glue stick as a release agent. |
 | Nozzle temp | PETG-CF **255 °C**; white PETG 250 °C |
 | Flow | Calibrate it per spool. Mine: PETG-CF 0.99, white PETG 0.95 |
 | Max volumetric speed | PETG-CF 11.5 mm³/s; PETG 12 mm³/s |
@@ -26,16 +28,19 @@ below already set and painted. On any other printer or slicer (PrusaSlicer, Orca
 
 | Part | Orientation | Infill | Supports | Time (X1C) |
 |---|---|---|---|---|
-| Side plate L and R | **Outer face DOWN** (the logo face is on the bed) | 6 walls, 40 % gyroid | See below | ≈ 4.3 h each |
-| Carabiner yoke | **Flat, band face down**. The eye's flange pocket faces UP. | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 2.6 h |
+| Side plate L and R | **Outer face DOWN** (the logo face is on the bed). Both on one bed. | 6 walls, 40 % gyroid | See below | ≈ 7.7 h for the pair |
+| Carabiner yoke | **Flat, band face down**. The eye's flange pocket faces UP. | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 2.8 h |
 | Pad dowel | **Upright**, standing on one end | **100 %** (rectilinear) | **Under the shoulder** where the Ø25.4 body overhangs the bottom D-stub, about 10 mm up. **None in the threaded holes.** 5 mm brim. | ≈ 3.4 h |
 
 ## Yoke — the details that matter
 
 **Bambu users:** print the yoke from
 [`yeti-paw-v1.2-yoke-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf). It holds
-the exact settings below, which have been printed and checked. Plate 3 of the main project is the same yoke, but it shares
-the side plates' cooling and bed temperature.
+the exact settings below, which have been printed and checked.
+
+**YETI STRENGTH** is painted white on the yoke's bed face, the same way as PAW on the plates. The model has a 0.02 mm step
+where the letters are, so the slicer's paint has an edge to follow. It's far too shallow to print, so it costs no strength.
+About 1 mm of white (5 layers).
 
 Every edge of the yoke has a 3 mm radius, including the round pivot bosses where they curve down to the bed. The supports
 must sit right against that curve; if they stand off it, the boss prints onto air and sags into a flat 45° slope.
@@ -57,6 +62,13 @@ must sit right against that curve; if they stand off it, the boss prints onto ai
   30 %. The yoke project does this for you.
 
 ## Side plates — the details that matter
+
+**Both plates on one bed**, the right plate turned to nest against the left, at least 15 mm from every bed edge and clear of
+the X1C's purge lines. **Stop the edges curling:**
+- bed **75 °C**;
+- **exhaust or chamber fan off until 3 mm**, then 30 %. The project switches it on at that height for you.
+
+With the fan on from the first layer, the plate edges lifted.
 
 **Layers.** 0.2 mm overall, with **0.08 mm layers from 0.2 to 1.32 mm** and **over the top 1.2 mm**. This is a height-range or
 variable-layer modifier. The fine layers let the 3 mm edge radius print cleanly on both faces. Keep the first layer at 0.2 mm.

@@ -70,7 +70,8 @@ assume you get that.
 
 ## Printed parts
 
-Bambu Studio project with one part per build plate: [`yeti-paw-v1.2-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-PROJECT.3mf).
+Bambu Studio projects, one per print: [side plates](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-plates-PROJECT.3mf) (both on one bed),
+[yoke](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf) and [pad dowel](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf).
 STL files and settings for any other printer: [`stl/`](stl/) and [`PRINT-SETTINGS.md`](PRINT-SETTINGS.md).
 
 | Part | Qty | Material | Print time |

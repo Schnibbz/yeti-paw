@@ -19,12 +19,13 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 - **[Bill of materials](BOM-yeti-paw.md)** <sub>([PDF](BOM-yeti-paw.pdf))</sub><br>
   Every part with a link, quantities, and cost per unit and per pair.
 
-**Print the parts**
-- **[⬇️ Download the Bambu Studio project (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-PROJECT.3mf)** <sub>yeti-paw-v1.2-PROJECT.3mf</sub><br>
-  4 build plates (left plate, right plate, yoke, dowel) with all settings, supports and the PAW logo set up.<br>
-  Filament 1 = black PETG-CF, filament 2 = white PETG.
-- **[⬇️ Yoke-only project (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.2-yoke-PROJECT.3mf</sub><br>
-  The yoke with its own printed-and-checked settings: supports, cooling and bed. Print the yoke from this one.
+**Print the parts.** One YETI PAW is three Bambu Studio projects, one per print. Each one has its own checked settings.
+- **[⬇️ Side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-plates-PROJECT.3mf)** <sub>yeti-paw-v1.2-plates-PROJECT.3mf</sub><br>
+  Left and right plate together on one bed, with the PAW logo painted. Filament 1 = black PETG-CF, filament 2 = white PETG.
+- **[⬇️ Carabiner yoke (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.2-yoke-PROJECT.3mf</sub><br>
+  The yoke, with YETI STRENGTH painted on. Filament 1 = black PETG-CF, filament 2 = white PETG.
+- **[⬇️ Pad dowel (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf)** <sub>yeti-paw-v1.2-dowel-PROJECT.3mf</sub><br>
+  The dowel, standing upright. Black PETG-CF.
 - **[STL files](stl/)**<br>
   The four parts, already in print orientation, for any other printer or slicer.
 - **[Print settings for any printer](PRINT-SETTINGS.md)**<br>
@@ -94,6 +95,10 @@ You'll need, beyond the parts in the BOM:
   - new carabiner yoke with a 3 mm radius on every edge, printed at 100 % infill;
   - yoke supports set to sit right against the round pivot bosses, and first-layer advice for its long leg tips;
   - safety factors re-run for the new yoke. The rating stays at 75 lb.
+  - YETI STRENGTH painted on the yoke;
+  - one Bambu project per print: both side plates on one bed, the yoke, and the dowel;
+  - side-plate and yoke settings that stop the edges curling (bed 75 °C, exhaust fan off for the first 3 mm);
+  - bearing seats opened up 0.05 mm, after full plates printed tighter than the fit coupons.
 - **v1.1** (Oct 2026), first public release:
   - tangent-arc side-plate outline;
   - PAW logo;
