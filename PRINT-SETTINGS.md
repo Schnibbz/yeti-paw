@@ -32,6 +32,11 @@ below already set and painted. On any other printer or slicer (PrusaSlicer, Orca
 
 ## Yoke — the details that matter
 
+**Bambu users:** print the yoke from
+[`yeti-paw-v1.2-yoke-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf). It holds
+the exact settings below, which have been printed and checked. Plate 3 of the main project is the same yoke, but it shares
+the side plates' cooling and bed temperature.
+
 Every edge of the yoke has a 3 mm radius, including the round pivot bosses where they curve down to the bed. The supports
 must sit right against that curve; if they stand off it, the boss prints onto air and sags into a flat 45° slope.
 
@@ -42,11 +47,14 @@ must sit right against that curve; if they stand off it, the boss prints onto ai
 | Top Z distance | **Exactly one layer**: 0.2 mm at 0.2 mm layers. Some slicers round the gap to whole layers, so 0.3 becomes 0.4. |
 | XY distance | 0.35 mm |
 | Top interface | 3 layers at 0.25 mm spacing |
-| Bed | Textured PEI, 70–75 °C |
+| Infill | 100 %, rectilinear (zig-zag) |
+| Bed | Textured PEI, **75 °C** |
+| Part cooling fan | Off for the first 12 layers, then at most 25 %. Overhangs 30 % (above 50 % overhang). |
 
 **Keep the leg tips down.** The yoke is long and its leg tips curl if air blows across them in the first layers:
 - leave at least 30 mm between the yoke and the edge of the plate;
-- on an enclosed printer with an exhaust or chamber fan, keep that fan off for the first 15 layers or so (about 3 mm).
+- on an enclosed printer with an exhaust or chamber fan, keep that fan off for the first 15 layers (3 mm), then run it at
+  30 %. The yoke project does this for you.
 
 ## Side plates — the details that matter
 

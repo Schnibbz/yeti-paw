@@ -23,6 +23,8 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 - **[⬇️ Download the Bambu Studio project (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-PROJECT.3mf)** <sub>yeti-paw-v1.2-PROJECT.3mf</sub><br>
   4 build plates (left plate, right plate, yoke, dowel) with all settings, supports and the PAW logo set up.<br>
   Filament 1 = black PETG-CF, filament 2 = white PETG.
+- **[⬇️ Yoke-only project (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.2-yoke-PROJECT.3mf</sub><br>
+  The yoke with its own printed-and-checked settings: supports, cooling and bed. Print the yoke from this one.
 - **[STL files](stl/)**<br>
   The four parts, already in print orientation, for any other printer or slicer.
 - **[Print settings for any printer](PRINT-SETTINGS.md)**<br>
