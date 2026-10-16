@@ -18,10 +18,9 @@ The weakest parts are the **carabiner yoke** and the **pad dowel**, about equal.
 | **75 lb (34 kg, rated)** | **4.6** | **1.6** | **5.5** | **2.0** | **4.6** | **1.6** |
 | 100 lb (45 kg, above rating) | 3.5 | 1.2 | 4.1 | 1.5 | 3.5 | 1.2 |
 
-**Centered-pivot side plates (variant).** The optional plates with the yoke hole centered between the handle and the pad
-were checked the same way. Run side by side with the standard plate on identical meshes, the centered plate came out about
-5 % stronger at every load (75 lb: static 6.1 / fatigue 2.1 against 5.8 / 2.0), so the side-plate column above covers it.
-The yoke and pad dowel are unchanged and remain the weakest parts; the rating stays 75 lb.
+**Centered-pivot side plates (variant).** The optional centered plates have their own page:
+[Safety factors — centered-pivot plates](SAFETY-FACTORS-CENTERED.md) <sub>([PDF](yeti-paw-safety-factors-centered.pdf))</sub>.
+Side by side on identical meshes they come out about 5 % stronger than the standard plate; the rating stays 75 lb.
 
 **How to read it.** A safety factor (SF) is how many times stronger the part is than the stress it sees. SF 2 means it would
 take twice the load to reach the limit.

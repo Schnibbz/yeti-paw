@@ -50,6 +50,8 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 **Know its limits**
 - **[Safety factors](SAFETY-FACTORS.md)** <sub>([PDF](yeti-paw-safety-factors.pdf))</sub><br>
   Results at 50, 75 and 100 lb, how they were calculated, and what they don't cover.
+- **[Safety factors — centered-pivot plates](SAFETY-FACTORS-CENTERED.md)** <sub>([PDF](yeti-paw-safety-factors-centered.pdf))</sub><br>
+  The same results for the optional centered-pivot side plates, with a side-by-side comparison to the standard plate.
 
 ## Centered-pivot variant
 
@@ -69,11 +71,10 @@ either plate. At the hardest point of the rep, a 20 lb cable puts about 17 lb on
 standard plates, and about 8 lb on the pad and 12 lb in the hand with the centered ones.
 
 - **Strength:** the same analysis as the standard plates; side by side, the centered plate is about 5 % stronger. The
-  rating stays 75 lb ([Safety factors](SAFETY-FACTORS.md)).
+  rating stays 75 lb. Full numbers: [Safety factors — centered-pivot plates](SAFETY-FACTORS-CENTERED.md)
+  <sub>([PDF](yeti-paw-safety-factors-centered.pdf))</sub>.
 - **Files:** the [project](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-centered-plates-PROJECT.3mf),
   [STLs](stl/) and [STEPs](step/) (`yeti-paw-v1.2-centered-plate-left/right`). No CNC version yet.
-- **Status: new.** Designed and analysed, but not yet printed and built by the designer. Print one pair and check the fit
-  before trusting it.
 
 <br clear="right">
 
