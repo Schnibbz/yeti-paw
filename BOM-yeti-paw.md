@@ -76,10 +76,9 @@ STL files and settings for any other printer: [`stl/`](stl/) and [`PRINT-SETTING
 
 | Part | Qty | Material | Print time |
 |---|---|---|---|
-| Side plate, left (PAW logo) | 1 | PETG-CF + white PETG logo · 6 walls, 40 % gyroid | ≈ 4.3 h |
-| Side plate, right (PAW logo) | 1 | PETG-CF + white PETG logo · 6 walls, 40 % gyroid | ≈ 4.3 h |
-| Carabiner yoke | 1 | PETG-CF · 6 walls, 40 % gyroid | ≈ 2.9 h |
-| Pad dowel | 1 | PETG-CF · 100 % infill | ≈ 3.4 h |
+| Side plates, left + right (PAW logo), one bed | 1 pair | PETG-CF + white PETG logo · 6 walls, 40 % gyroid | ≈ 7.7 h |
+| Carabiner yoke (YETI STRENGTH) | 1 | PETG-CF + white PETG lettering · 100 % infill | ≈ 2.8 h |
+| Pad dowel | 1 | PETG-CF · 100 % infill · PLA for the support interface only (about 1 g) | ≈ 3.9 h |
 
 ## Not included
 

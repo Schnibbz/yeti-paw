@@ -25,7 +25,7 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 - **[⬇️ Carabiner yoke (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.2-yoke-PROJECT.3mf</sub><br>
   The yoke, with YETI STRENGTH painted on. Filament 1 = black PETG-CF, filament 2 = white PETG.
 - **[⬇️ Pad dowel (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf)** <sub>yeti-paw-v1.2-dowel-PROJECT.3mf</sub><br>
-  The dowel, standing upright. Black PETG-CF.
+  The dowel, standing upright. Black PETG-CF, plus a little PLA (any colour) for the support under its shoulder.
 - **[STL files](stl/)**<br>
   The four parts, already in print orientation, for any other printer or slicer.
 - **[Print settings for any printer](PRINT-SETTINGS.md)**<br>
