@@ -22,18 +22,21 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 **Print the parts.** One YETI PAW is three Bambu Studio projects, one per print. Each one has its own checked settings.
 - **[⬇️ Side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-plates-PROJECT.3mf)** <sub>yeti-paw-v1.2-plates-PROJECT.3mf</sub><br>
   Left and right plate together on one bed, with the PAW logo painted. Filament 1 = black PETG-CF, filament 2 = white PETG.
+- **[⬇️ Centered-pivot side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-centered-plates-PROJECT.3mf)** <sub>yeti-paw-v1.2-centered-plates-PROJECT.3mf · optional variant</sub><br>
+  Print these **instead of** the side plates above for a more balanced feel (see [below](#centered-pivot-variant)). Same
+  filaments and settings.
 - **[⬇️ Carabiner yoke (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.2-yoke-PROJECT.3mf</sub><br>
   The yoke, with YETI STRENGTH painted on. Filament 1 = black PETG-CF, filament 2 = white PETG.
 - **[⬇️ Pad dowel (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf)** <sub>yeti-paw-v1.2-dowel-PROJECT.3mf</sub><br>
   The dowel, standing upright. Black PETG-CF, plus a little PLA (any colour) for the support under its shoulder.
 - **[STL files](stl/)**<br>
-  The four parts, already in print orientation, for any other printer or slicer.
+  The four parts (plus the centered-pivot plates), already in print orientation, for any other printer or slicer.
 - **[Print settings for any printer](PRINT-SETTINGS.md)**<br>
   Orientation, layers, walls and infill, supports and logo painting.
 
 **Edit or remix it**
 - **[STEP files](step/)**<br>
-  The four parts as CAD solids, posed like the STLs. The yoke STEP carries a YETI STRENGTH engraving that the print files
+  The four parts (plus the centered-pivot plates) as CAD solids, posed like the STLs. The yoke STEP carries a YETI STRENGTH engraving that the print files
   don't have. The side plates' 3 mm edge radius is only in the STLs and the 3MF, so
   add it in your CAD if you need it (outline and window, both faces).
 - **[Machined aluminium parts (CNC)](CNC-NOTES.md)**<br>
@@ -47,6 +50,32 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 **Know its limits**
 - **[Safety factors](SAFETY-FACTORS.md)** <sub>([PDF](yeti-paw-safety-factors.pdf))</sub><br>
   Results at 50, 75 and 100 lb, how they were calculated, and what they don't cover.
+
+## Centered-pivot variant
+
+<img src="images/yeti-paw-centered-hero.png" alt="YETI PAW with the centered-pivot side plates (render)" width="300" align="right">
+
+The side plates come in two versions. Both use the same handle, pad, yoke, bearings and hardware, and build the same way;
+only the plates differ.
+
+- **Standard plates:** the yoke hooks on below the wrist pad, so the **forearm pad carries most of the load** and your grip
+  can relax.
+- **Centered-pivot plates:** the yoke hole sits in the middle, between the handle and the pad (an isosceles triangle,
+  85 mm to each). The load is **shared more evenly between your hand and your wrist**, closer to how a D-handle or a wrist
+  cuff feels.
+
+The exercise itself barely changes. Worked out for a cable lateral raise, the cable follows almost the same path with
+either plate. At the hardest point of the rep, a 20 lb cable puts about 17 lb on the pad and 3 lb in the hand with the
+standard plates, and about 8 lb on the pad and 12 lb in the hand with the centered ones.
+
+- **Strength:** the same analysis as the standard plates; side by side, the centered plate is about 5 % stronger. The
+  rating stays 75 lb ([Safety factors](SAFETY-FACTORS.md)).
+- **Files:** the [project](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-centered-plates-PROJECT.3mf),
+  [STLs](stl/) and [STEPs](step/) (`yeti-paw-v1.2-centered-plate-left/right`). No CNC version yet.
+- **Status: new.** Designed and analysed, but not yet printed and built by the designer. Print one pair and check the fit
+  before trusting it.
+
+<br clear="right">
 
 ## Before you start
 

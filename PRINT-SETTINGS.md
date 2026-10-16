@@ -29,6 +29,7 @@ already set and painted:
 | Part | Orientation | Infill | Supports | Time (X1C) |
 |---|---|---|---|---|
 | Side plate L and R | **Outer face DOWN** (the logo face is on the bed). Both on one bed. | 6 walls, 40 % gyroid | See below | ≈ 7.7 h for the pair |
+| Centered-pivot side plates L and R (variant) | Same as the side plates | Same | Same | ≈ 6.6 h for the pair |
 | Carabiner yoke | **Flat, band face down**. The eye's flange pocket faces UP. | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 2.8 h |
 | Pad dowel | **Upright**, standing on one end | **100 %** (rectilinear) | **Under the shoulder** where the Ø25.4 body overhangs the bottom D-stub, about 10 mm up. Support body in PETG-CF, **the 3 interface layers in PLA at zero gap**. PLA doesn't bond to PETG, so the shoulder prints flat and the support peels off clean. **None in the threaded holes.** 5 mm brim. | ≈ 3.9 h |
 
@@ -64,6 +65,8 @@ support there fuses to the part and tears it on removal.
   30 %. The yoke project does this for you.
 
 ## Side plates — the details that matter
+
+Everything in this section applies to the centered-pivot plates too: same settings, same supports, same logo painting.
 
 **Both plates on one bed**, the right plate turned to nest against the left, at least 15 mm from every bed edge and clear of
 the X1C's purge lines. **Stop the edges curling:**
