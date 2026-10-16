@@ -42,19 +42,21 @@ the exact settings below, which have been printed and checked.
 where the letters are, so the slicer's paint has an edge to follow. It's far too shallow to print, so it costs no strength.
 About 1 mm of white (5 layers).
 
-Every edge of the yoke has a 3 mm radius, including the round pivot bosses where they curve down to the bed. The supports
-must sit right against that curve; if they stand off it, the boss prints onto air and sags into a flat 45° slope.
+Every edge of the yoke has a 3 mm radius, including the round pivot bosses where they curve down to the bed. Tested on
+PETG-CF: support the **flat bottom of each boss only**. Up the steeper part of the curve, PETG prints on its own, and any
+support there fuses to the part and tears it on removal.
 
 | Setting | Value |
 |---|---|
-| Support type | Normal, **painted / enforcer only** under the two pivot bosses. Block everything else, including the 3 mm radius along the bottom edge and the Ø12 bores. |
-| Support style | **Snug** (hugs the overhang) rather than grid |
+| Where to support | Painted enforcers **only under the flat bottom of each pivot boss**: the part tilted more than 45° from vertical, about the first 3 mm. Also the **rounded ends** of each boss (the 3 mm radius where the end faces curve down to the bed), out to 60° from vertical, about 5 mm up. Block everything else, including the Ø12 bores and the 3 mm radius along the bottom edge. Turn off "remove small overhangs" so the small end patches aren't dropped. |
+| Support style | **Snug**, not grid |
 | Top Z distance | **Exactly one layer**: 0.2 mm at 0.2 mm layers. Some slicers round the gap to whole layers, so 0.3 becomes 0.4. |
 | XY distance | 0.35 mm |
-| Top interface | 3 layers at 0.25 mm spacing |
+| Top interface | **4 layers, 0.10 mm spacing, concentric pattern, ironed**, printed at 40 mm/s |
+| Nozzle | **245 °C** for PETG-CF (250 °C first layer) |
 | Infill | 100 %, rectilinear (zig-zag) |
 | Bed | Textured PEI, **75 °C** |
-| Part cooling fan | Off for the first 12 layers, then at most 25 %. Overhangs 30 % (above 50 % overhang). |
+| Part cooling fan | Off for the first 3 layers, then up to 40 %. **Overhangs 80 %** (above 25 % overhang). |
 
 **Keep the leg tips down.** The yoke is long and its leg tips curl if air blows across them in the first layers:
 - leave at least 30 mm between the yoke and the edge of the plate;
