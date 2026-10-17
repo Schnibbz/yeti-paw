@@ -1,4 +1,4 @@
-# YETI PAW v1.2 — Lateral Raise Handle
+# YETI PAW v1.3 — Lateral Raise Handle
 
 Designed by **Schnibbz** · YETI STRENGTH
 
@@ -13,6 +13,17 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 
 <br clear="right">
 
+> ## ⚠️ Parts changed in v1.3
+> **Two parts are different from v1.2. Buy the new ones: the old ones don't fit the v1.3 files, and the new ones don't fit v1.2 prints.**
+>
+> | Part | v1.2 (old) | **v1.3 (new)** | Why |
+> |---|---|---|---|
+> | **Handle bearing** · 2 per handle · both plate variants | FR8-2RS **flanged**, 1/2" × 1-1/8" × 5/16" | **R8-2RS plain** (no flange), same 1/2" × 1-1/8" × 5/16" | The press fit alone holds the bearing; the flange did nothing. Cheaper, and the plate loses its flange pocket and the support it needed. |
+> | **Carabiner eye sleeve** · 1 per yoke | uxcell **wrapped** flanged sleeve, 20 × 23 × 10 mm, Ø30 flange | **Solid bronze plain sleeve**, 3/4" bore × 7/8" OD × 1/2" long (McMaster **6391K256**) | The wrapped sleeve pressed in out of round and left the bottom edge of the eye bare plastic where the carabiner bears. The solid sleeve stays round and sits flush on both faces, so the carabiner only touches bronze. |
+>
+> **Don't mix versions.** v1.3 plates have no flange pocket, so an FR8 won't seat flush. The v1.3 yoke's eye bore is Ø22.29 for the 7/8" sleeve:
+> the old 23 mm sleeve won't press in, and the new sleeve would be loose in a v1.2 yoke. Everything else is unchanged.
+
 ## Files
 
 **Buy the parts**
@@ -20,14 +31,14 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
   Every part with a link, quantities, and cost per unit and per pair.
 
 **Print the parts.** One YETI PAW is three Bambu Studio projects, one per print. Each one has its own checked settings.
-- **[⬇️ Side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-plates-PROJECT.3mf)** <sub>yeti-paw-v1.2-plates-PROJECT.3mf</sub><br>
+- **[⬇️ Side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-plates-PROJECT.3mf)** <sub>yeti-paw-v1.3-plates-PROJECT.3mf</sub><br>
   Left and right plate together on one bed, with the PAW logo painted. Filament 1 = black PETG-CF, filament 2 = white PETG.
-- **[⬇️ Centered-pivot side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-centered-plates-PROJECT.3mf)** <sub>yeti-paw-v1.2-centered-plates-PROJECT.3mf · optional variant</sub><br>
+- **[⬇️ Centered-pivot side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-centered-plates-PROJECT.3mf)** <sub>yeti-paw-v1.3-centered-plates-PROJECT.3mf · optional variant</sub><br>
   Print these **instead of** the side plates above for a more balanced feel (see [below](#centered-pivot-variant)). Same
   filaments and settings.
-- **[⬇️ Carabiner yoke (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.2-yoke-PROJECT.3mf</sub><br>
+- **[⬇️ Carabiner yoke (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.3-yoke-PROJECT.3mf</sub><br>
   The yoke, with YETI STRENGTH painted on. Filament 1 = black PETG-CF, filament 2 = white PETG.
-- **[⬇️ Pad dowel (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf)** <sub>yeti-paw-v1.2-dowel-PROJECT.3mf</sub><br>
+- **[⬇️ Pad dowel (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-dowel-PROJECT.3mf)** <sub>yeti-paw-v1.3-dowel-PROJECT.3mf</sub><br>
   The dowel, standing upright. Black PETG-CF, plus a little PLA (any colour) for the support under its shoulder.
 - **[STL files](stl/)**<br>
   The four parts (plus the centered-pivot plates), already in print orientation, for any other printer or slicer.
@@ -46,6 +57,11 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 **Put it together**
 - **[Assembly sheets (PDF)](yeti-paw-assembly-sheets.pdf)**<br>
   Exploded views of the handle, yoke (with pivot section) and pad. Build order below.
+
+**Read the research**
+- **[Handle research (PDF)](research/yeti-paw-handle-research.pdf)** <sub>v2.0 · 31 pages</sub><br>
+  Standard vs centered pivot on four cable movements (lateral raise, bicep curl, Bayesian curl, chest fly): where the load
+  sits, resistance curves, and the hardware checks behind the centered plate.
 
 **Know its limits**
 - **[Safety factors](SAFETY-FACTORS.md)** <sub>([PDF](yeti-paw-safety-factors.pdf))</sub><br>
@@ -70,11 +86,13 @@ The exercise itself barely changes. Worked out for a cable lateral raise, the ca
 either plate. At the hardest point of the rep, a 20 lb cable puts about 17 lb on the pad and 3 lb in the hand with the
 standard plates, and about 8 lb on the pad and 12 lb in the hand with the centered ones.
 
-- **Strength:** the same analysis as the standard plates; side by side, the centered plate is about 5 % stronger. The
-  rating stays 75 lb. Full numbers: [Safety factors — centered-pivot plates](SAFETY-FACTORS-CENTERED.md)
+- **Yoke swing (v1.3):** the side between the yoke and the handle is swept concave (R20), so the yoke can follow the cable
+  through curls and flies as well as lateral raises.
+- **Strength:** the same analysis as the standard plates; side by side, the centered plate is level with or slightly above the
+  standard plate at every load. The rating stays 75 lb. Full numbers: [Safety factors — centered-pivot plates](SAFETY-FACTORS-CENTERED.md)
   <sub>([PDF](yeti-paw-safety-factors-centered.pdf))</sub>.
-- **Files:** the [project](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-centered-plates-PROJECT.3mf),
-  [STLs](stl/) and [STEPs](step/) (`yeti-paw-v1.2-centered-plate-left/right`). No CNC version yet.
+- **Files:** the [project](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-centered-plates-PROJECT.3mf),
+  [STLs](stl/) and [STEPs](step/) (`yeti-paw-v1.3-centered-plate-left/right`). No CNC version yet.
 
 <br clear="right">
 
@@ -83,7 +101,7 @@ standard plates, and about 8 lb on the pad and 12 lb in the hand with the center
 You'll need, beyond the parts in the BOM:
 - **A printer with a hardened 0.4 mm nozzle.** Carbon-fibre filament wears out brass nozzles.
 - **PETG-CF**, dried. **Never print it in PLA**: PLA creeps under steady load and softens in a hot car.
-- **A steel screw-gate carabiner rated 25 kN or more**, with a bar that fits through a 20 mm hole. It isn't included.
+- **A steel screw-gate carabiner rated 25 kN or more**, with a bar that fits through a 19 mm hole (the bronze eye sleeve's bore). It isn't included.
 - **Tools:**
   - hex keys (5 mm and 5/16") and a 13 mm wrench;
   - an inch-pound torque driver and a foot-pound torque wrench;
@@ -101,10 +119,10 @@ You'll need, beyond the parts in the BOM:
    - Remove all supports, especially inside the bearing bores.
    - Turn a Ø12 mm drill bit by hand through the yoke's two pivot bores to take out the slight sag at the top of each bore.
    - Run a 1/2"-13 bolt in and out of both dowel threads, with a little wax.
-2. **Press the bearings into both plates** from the outside face (the PAW side): one flanged FR8 at the handle hole and one
-   6000 at the yoke hole. They are firm press fits, so use a vise. No Loctite or CA glue on plastic.
-3. **Press the steel sleeves into the yoke**, 1 mm proud of each face. Press the bronze sleeve into the eye, flange up in its
-   pocket.
+2. **Press the bearings into both plates** from the outside face (the PAW side): one plain **R8-2RS** at the handle hole
+   (v1.3: no flange; press until it stops on the ledge behind the seat) and one 6000 at the yoke hole. They are firm press fits, so use a vise. No Loctite or CA glue on plastic.
+3. **Press the steel sleeves into the yoke**, 1 mm proud of each face. Press the bronze sleeve (v1.3: plain, McMaster 6391K256) through
+   the eye until it sits flush with both faces.
 4. **Trim the pad** evenly from both ends to 132 mm, off the dowel so the knife can't score it, then slide it onto the dowel.
 5. **Fit the yoke to both plates first**, while the inside of each plate is easy to reach. Each side: shoulder bolt from the outside through the yoke sleeve and the 6000 bearing, then the M8 washer
    and nylock on the inside. Tighten to 35 in-lb. Assembly sheet 3b shows the stack.
@@ -121,6 +139,14 @@ You'll need, beyond the parts in the BOM:
 
 ## Version history
 
+Every release is tagged and archived on the [Releases](https://github.com/Schnibbz/yeti-paw/releases) page with its own
+files; the full list of changes is in the [CHANGELOG](CHANGELOG.md).
+
+- **v1.3** (Oct 2026), **two parts changed** (see the notice at the top):
+  - handle bearing: plain **R8-2RS** replaces the flanged FR8, on both plate variants (no flange pocket, one less support area);
+  - carabiner eye: a solid bronze sleeve (McMaster 6391K256), flush both faces, replaces the wrapped flanged sleeve;
+  - centered-pivot plates: the yoke-to-handle side swept R20 so the yoke follows the cable on curls and flies;
+  - handle research v2.0 (PDF) added.
 - **v1.2** (Oct 2026):
   - new carabiner yoke with a 3 mm radius on every edge, printed at 100 % infill;
   - yoke supports set to sit right against the round pivot bosses, and first-layer advice for its long leg tips;

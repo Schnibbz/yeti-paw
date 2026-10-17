@@ -1,4 +1,4 @@
-# YETI PAW v1.2 — CNC parts (machined aluminium)
+# YETI PAW v1.3 — CNC parts (machined aluminium)
 
 An option for builders who would rather have the two side plates, the carabiner yoke, or both machined than printed.
 Everything else stays as in the main build: the printed pad dowel, the bearings and the hardware from the
@@ -7,14 +7,14 @@ Everything else stays as in the main build: the printed pad dowel, the bearings 
 ## Files
 
 **Side plates.** Send the shop all three:
-- [`cnc/yeti-paw-v1.2-plate-left-CNC.step`](cnc/yeti-paw-v1.2-plate-left-CNC.step)
-- [`cnc/yeti-paw-v1.2-plate-right-CNC.step`](cnc/yeti-paw-v1.2-plate-right-CNC.step)
-- [`cnc/yeti-paw-v1.2-plates-CNC-drawing.pdf`](cnc/yeti-paw-v1.2-plates-CNC-drawing.pdf), which carries the bearing fits,
+- [`cnc/yeti-paw-v1.3-plate-left-CNC.step`](cnc/yeti-paw-v1.3-plate-left-CNC.step)
+- [`cnc/yeti-paw-v1.3-plate-right-CNC.step`](cnc/yeti-paw-v1.3-plate-right-CNC.step)
+- [`cnc/yeti-paw-v1.3-plates-CNC-drawing.pdf`](cnc/yeti-paw-v1.3-plates-CNC-drawing.pdf), which carries the bearing fits,
   depths and notes. A STEP file has no tolerances, so the drawing is what makes the bearings fit.
 
 **Carabiner yoke.** Send the shop both:
-- [`cnc/yeti-paw-v1.2-yoke-CNC.step`](cnc/yeti-paw-v1.2-yoke-CNC.step)
-- [`cnc/yeti-paw-v1.2-yoke-CNC-drawing.pdf`](cnc/yeti-paw-v1.2-yoke-CNC-drawing.pdf)
+- [`cnc/yeti-paw-v1.3-yoke-CNC.step`](cnc/yeti-paw-v1.3-yoke-CNC.step)
+- [`cnc/yeti-paw-v1.3-yoke-CNC-drawing.pdf`](cnc/yeti-paw-v1.3-yoke-CNC-drawing.pdf)
 
 **Use these, not the files in [`step/`](step/).** Those are the print geometry, with features that only make sense on a 3D
 printer.
@@ -34,9 +34,9 @@ plate.
 
 ## The machined yoke
 
-Same shape as the printed v1.2 yoke, with **YETI STRENGTH engraved 0.3 mm** on its bottom face, reading as worn (legs up,
-eye down). It takes the same sleeves as the printed one: two SF-1 steel sleeves in the pivot bores and the bronze flanged
-sleeve in the eye. Here those bores are machined press fits (**P7**).
+Same shape as the printed v1.3 yoke, with **YETI STRENGTH engraved 0.3 mm** on its bottom face, reading as worn (legs up,
+eye down). It takes the same sleeves as the printed one: two SF-1 steel sleeves in the pivot bores and the plain bronze
+sleeve (McMaster 6391K256, v1.3) in the eye. Here those bores are machined press fits (**P7**).
 - **Material:** 6061-T6, from plate at least 28 mm (1-1/8") thick. It weighs about 180 g.
 - **Process:** the 3 mm radius on every edge and the round pivot bosses need 3D work on both faces, and the two pivot bores
   run horizontally through the bosses. They **must be coaxial**, so the shop should bore both in one setup.

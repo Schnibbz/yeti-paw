@@ -1,4 +1,4 @@
-# YETI PAW v1.2 — Safety factors
+# YETI PAW v1.3 — Safety factors
 
 Designed by **Schnibbz** · YETI STRENGTH
 
@@ -30,6 +30,11 @@ take twice the load to reach the limit.
 
 **Why 75 lb.** At 75 lb the lowest fatigue SF is 1.6 (yoke and pad dowel), above the 1.5 minimum used here for repeated
 loading. v1.2's stronger yoke adds margin at the same rating; it does not raise the rating.
+
+**v1.3 parts change, same figures.** v1.3 swaps the flanged handle bearing for a plain R8 (the plate loses its flange pocket,
+so a little more plastic stays around the seat) and the wrapped eye sleeve for a solid bronze one (the eye bore shrinks from
+Ø22.9 to Ø22.29, so a little more plastic stays around the eye). Both changes only add material where the parts are loaded; the
+figures above were computed for v1.2 and are kept as the conservative values.
 
 **Why the 100 lb row is shown.** It shows how quickly the margin disappears: one pull at 100 lb is still inside static
 strength (SF 3.5 or more), but the fatigue SF of the yoke and dowel drops to 1.2, which leaves no real margin for repeated

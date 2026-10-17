@@ -1,6 +1,17 @@
-# YETI PAW v1.2 — Lateral Raise Handle — Bill of Materials
+# YETI PAW v1.3 — Lateral Raise Handle — Bill of Materials
 
 Designed by **Schnibbz** · YETI STRENGTH
+
+> ## ⚠️ Parts changed in v1.3
+> **Two parts are different from v1.2. Buy the new ones: the old ones don't fit the v1.3 files, and the new ones don't fit v1.2 prints.**
+>
+> | Part | v1.2 (old) | **v1.3 (new)** | Why |
+> |---|---|---|---|
+> | **Handle bearing** · 2 per handle · both plate variants | FR8-2RS **flanged**, 1/2" × 1-1/8" × 5/16" | **R8-2RS plain** (no flange), same 1/2" × 1-1/8" × 5/16" | The press fit alone holds the bearing; the flange did nothing. Cheaper, and the plate loses its flange pocket and the support it needed. |
+> | **Carabiner eye sleeve** · 1 per yoke | uxcell **wrapped** flanged sleeve, 20 × 23 × 10 mm, Ø30 flange | **Solid bronze plain sleeve**, 3/4" bore × 7/8" OD × 1/2" long (McMaster **6391K256**) | The wrapped sleeve pressed in out of round and left the bottom edge of the eye bare plastic where the carabiner bears. The solid sleeve stays round and sits flush on both faces, so the carabiner only touches bronze. |
+>
+> **Don't mix versions.** v1.3 plates have no flange pocket, so an FR8 won't seat flush. The v1.3 yoke's eye bore is Ø22.29 for the 7/8" sleeve:
+> the old 23 mm sleeve won't press in, and the new sleeve would be loose in a v1.2 yoke. Everything else is unchanged.
 
 ## What it costs
 
@@ -11,7 +22,7 @@ Designed by **Schnibbz** · YETI STRENGTH
 | **What my first batch actually cost** — 4 units, real receipts, incl. tax and anodized handles | **$86.22** | **$172.44** |
 
 How the first batch got from ≈ $72 of parts per unit to $86.22: sales tax, anodized handles instead of raw ($58 vs $48 a pair), and the
-spare bearings, nuts, sleeves and ~600 g of filament left over from whole packs. Prices are approximate, checked 2026-10-13, and will drift.
+spare bearings, nuts, sleeves and ~600 g of filament left over from whole packs. Prices are approximate, checked 2026-10-13 for v1.2, and will drift. They have not been re-priced for v1.3's two part changes (the R8 bearing is cheaper; the bronze sleeve adds a McMaster-Carr order).
 
 **Assumes free Rogue shipping**: Rogue ships free once your cart has 3 ship-free items, so add the handles to a bigger Rogue
 order (or a friend's). Other shipping is included in the parts cost: Bolt Depot economy $12.12 and aluminumspacers.com $10
@@ -25,16 +36,21 @@ Quantities below are **per Yeti Paw** (one handle). Double them for a pair.
 
 | Part | Qty | Pack | Link |
 |---|---|---|---|
-| **Handle bearing**<br><sub>FR8-2RS flanged ball bearing, 1/2" bore × 1-1/8" OD × 5/16"</sub> | 2 | 10 | [B0FKH4Z7K2](https://www.amazon.com/dp/B0FKH4Z7K2?tag=yetistrength-20) |
+| **Handle bearing** · *changed in v1.3*<br><sub>R8-2RS plain ball bearing (no flange), 1/2" bore × 1-1/8" OD × 5/16" — Sackorange 10-pack</sub> | 2 | 10 | [B07DCQLCS3](https://www.amazon.com/dp/B07DCQLCS3?tag=yetistrength-20) |
 | **Yoke bearing**<br><sub>6000-2RS ball bearing, 10 × 26 × 8 mm</sub> | 2 | 10 | [B0DTKDKSTF](https://www.amazon.com/dp/B0DTKDKSTF?tag=yetistrength-20) |
 | **Yoke compression sleeve**<br><sub>SF-1 1020 bushing, 10 × 12 × 20 mm</sub> | 2 | 10 | [B07FPH25F3](https://www.amazon.com/dp/B07FPH25F3?tag=yetistrength-20) |
-| **Carabiner eye sleeve**<br><sub>uxcell flanged bronze sleeve, ID 20 × OD 23 × 10 long, Ø30 flange (size **20x23x10x30mm**; 12 mm long also fits)</sub> | 1 | 20 | [B0GWDG85L3](https://www.amazon.com/dp/B0GWDG85L3?tag=yetistrength-20) |
 | **Yoke lock nut**<br><sub>M8 × 1.25 nylon-insert, DIN 985, black oxide</sub> | 2 | 25 | [B083Z2GCRR](https://www.amazon.com/dp/B083Z2GCRR?tag=yetistrength-20) |
 | **Yoke washer**<br><sub>M8 flat washer, 8 × 12 × 0.8 mm, 304 stainless</sub> | 2 | 20 | [B0DP6Y9MQP](https://www.amazon.com/dp/B0DP6Y9MQP?tag=yetistrength-20) |
 | **Wrist pad**<br><sub>CONCAVE foam roller pad, 2.95" OD × 5.71", 0.87" bore — trim evenly from both ends to 132 mm</sub> | 1 | 2 | [B094D5ZJXK](https://www.amazon.com/dp/B094D5ZJXK?tag=yetistrength-20) |
 | **Threadlocker**<br><sub>Loctite 243 blue, 6 mL — handle screws only</sub> | a drop | 1 | [B004L439FE](https://www.amazon.com/dp/B004L439FE?tag=yetistrength-20) |
 | **Body filament**<br><sub>ELEGOO PETG-CF, black, 1.75 mm</sub> | ≈ 350 g | 1 kg | [B0F37YCK6K](https://www.amazon.com/dp/B0F37YCK6K?tag=yetistrength-20) |
 | **Logo filament**<br><sub>SUNLU PETG, white, 1.75 mm</sub> | ≈ 18 g | 1 kg | [B085TH48N6](https://www.amazon.com/dp/B085TH48N6?tag=yetistrength-20) |
+
+## McMaster-Carr
+
+| Part | Qty | Pack | Link |
+|---|---|---|---|
+| **Carabiner eye sleeve** · *changed in v1.3*<br><sub>Oil-embedded SAE 841 bronze sleeve bearing, 3/4" bore × 7/8" OD × 1/2" long — bronze, not the iron-copper version</sub> | 1 | each | [6391K256](https://www.mcmaster.com/6391K256/) |
 
 ## Bolt Depot
 
@@ -70,8 +86,8 @@ assume you get that.
 
 ## Printed parts
 
-Bambu Studio projects, one per print: [side plates](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-plates-PROJECT.3mf) (both on one bed),
-[yoke](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf) and [pad dowel](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf).
+Bambu Studio projects, one per print: [side plates](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-plates-PROJECT.3mf) (both on one bed),
+[yoke](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-yoke-PROJECT.3mf) and [pad dowel](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-dowel-PROJECT.3mf).
 STL files and settings for any other printer: [`stl/`](stl/) and [`PRINT-SETTINGS.md`](PRINT-SETTINGS.md).
 
 | Part | Qty | Material | Print time |

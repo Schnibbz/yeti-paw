@@ -1,10 +1,10 @@
-# YETI PAW v1.2 — Print settings (any printer)
+# YETI PAW v1.3 — Print settings (any printer)
 
-These are the v1.2 settings, used on a Bambu X1C. Bambu users can open the three projects, which have everything below
+These are the v1.3 settings, used on a Bambu X1C. Bambu users can open the three projects, which have everything below
 already set and painted:
-[side plates](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-plates-PROJECT.3mf) (both on one bed),
-[yoke](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf) and
-[pad dowel](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-dowel-PROJECT.3mf). On any other printer or slicer (PrusaSlicer, OrcaSlicer, Cura, …), use the files in
+[side plates](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-plates-PROJECT.3mf) (both on one bed),
+[yoke](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-yoke-PROJECT.3mf) and
+[pad dowel](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-dowel-PROJECT.3mf). On any other printer or slicer (PrusaSlicer, OrcaSlicer, Cura, …), use the files in
 [`stl/`](stl/) and copy these values. The STLs are already in print orientation.
 
 **Strength depends on these settings.** The safety factors assume **6 walls and 40 % gyroid** in PETG-CF on the plates, and
@@ -30,13 +30,13 @@ already set and painted:
 |---|---|---|---|---|
 | Side plate L and R | **Outer face DOWN** (the logo face is on the bed). Both on one bed. | 6 walls, 40 % gyroid | See below | ≈ 7.7 h for the pair |
 | Centered-pivot side plates L and R (variant) | Same as the side plates | Same | Same | ≈ 6.6 h for the pair |
-| Carabiner yoke | **Flat, band face down**. The eye's flange pocket faces UP. | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 2.8 h |
+| Carabiner yoke | **Flat, band face down**. The eye is a straight Ø22.29 bore (no pocket in v1.3). | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 2.8 h |
 | Pad dowel | **Upright**, standing on one end | **100 %** (rectilinear) | **Under the shoulder** where the Ø25.4 body overhangs the bottom D-stub, about 10 mm up. Support body in PETG-CF, **the 3 interface layers in PLA at zero gap**. PLA doesn't bond to PETG, so the shoulder prints flat and the support peels off clean. **None in the threaded holes.** 5 mm brim. | ≈ 3.9 h |
 
 ## Yoke — the details that matter
 
 **Bambu users:** print the yoke from
-[`yeti-paw-v1.2-yoke-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.2-yoke-PROJECT.3mf). It holds
+[`yeti-paw-v1.3-yoke-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-yoke-PROJECT.3mf). It holds
 the exact settings below, which have been printed and checked.
 
 **YETI STRENGTH** is painted white on the yoke's bed face, the same way as PAW on the plates. The model has a 0.02 mm step
@@ -91,10 +91,10 @@ variable-layer modifier. The fine layers let the 3 mm edge radius print cleanly 
 | Bottom shells | 18 layers (about 1.9 mm with the 0.08 mm layers) |
 | Top shell | 1.0 mm |
 
-**Supports.** The plate needs support in three places only, all inside the bearing bores:
-1. the FR8 flange step, 1.92 mm up in the handle bore;
-2. the bearing-seat lip about 8 mm up in the handle bore;
-3. the bearing-seat lip about 8 mm up in the yoke (6000) bore.
+**Supports.** The plate needs support in two places only, both inside the bearing bores (v1.3: the handle bore has no
+flange step any more):
+1. the bearing-seat lip about 8 mm up in the handle bore;
+2. the bearing-seat lip about 8 mm up in the yoke (6000) bore.
 
 Use normal / grid supports, not tree:
 
@@ -122,6 +122,9 @@ Use a scarf seam if your slicer has one.
 - Turn on "avoid crossing walls" so the nozzle doesn't drag black across the white.
 
 ## After printing
+
+- **Bearings and the eye sleeve (v1.3):** press each R8 handle bearing in from the outer face until it stops on the ledge
+  behind the seat. Press the bronze eye sleeve through the yoke's eye until it sits flush with both faces. Use a vise.
 
 - **Yoke pivot bores:** the roof of each horizontal Ø12 bore sags slightly. Clean the bores back to round with a **Ø12 mm drill
   bit turned by hand**, then press the steel sleeves in.

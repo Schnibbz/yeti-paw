@@ -1,9 +1,10 @@
-# YETI PAW v1.2 — Safety factors, centered-pivot side plates
+# YETI PAW v1.3 — Safety factors, centered-pivot side plates
 
 Designed by **Schnibbz** · YETI STRENGTH
 
 This page covers the **optional centered-pivot side plates** (the yoke hole centered between the handle and the pad,
-85 mm to each). Everything else in the build is unchanged, so the yoke and pad dowel figures are the same as on the main
+85 mm to each; in v1.3 the side between the yoke and the handle is swept concave (R20) so the yoke can follow the cable on curls
+and flies). Everything else in the build is unchanged, so the yoke and pad dowel figures are the same as on the main
 [Safety factors](SAFETY-FACTORS.md) page.
 
 ## Rating: 75 lb working load (unchanged)
@@ -16,9 +17,9 @@ This page covers the **optional centered-pivot side plates** (the yoke hole cent
 
 | Cable load | Yoke — static | Yoke — fatigue | Centered plate — static | Centered plate — fatigue | Pad dowel — static | Pad dowel — fatigue |
 |---|---|---|---|---|---|---|
-| 50 lb (23 kg) | 7.0 | 2.4 | 9.1 | 3.2 | 6.9 | 2.4 |
-| **75 lb (34 kg, rated)** | **4.6** | **1.6** | **6.1** | **2.1** | **4.6** | **1.6** |
-| 100 lb (45 kg, above rating) | 3.5 | 1.2 | 4.6 | 1.6 | 3.5 | 1.2 |
+| 50 lb (23 kg) | 7.0 | 2.4 | 8.9 | 3.1 | 6.9 | 2.4 |
+| **75 lb (34 kg, rated)** | **4.6** | **1.6** | **5.9** | **2.1** | **4.6** | **1.6** |
+| 100 lb (45 kg, above rating) | 3.5 | 1.2 | 4.4 | 1.6 | 3.5 | 1.2 |
 
 The yoke and the pad dowel are still the weakest parts. The centered plate has more margin than either, so it does not
 change the rating.
@@ -28,15 +29,16 @@ settings, so their numbers compare directly:
 
 | Cable load | Standard plate — static | Standard plate — fatigue | Centered plate — static | Centered plate — fatigue |
 |---|---|---|---|---|
-| 50 lb | 8.7 | 3.1 | 9.1 | 3.2 |
-| **75 lb** | **5.8** | **2.0** | **6.1** | **2.1** |
-| 100 lb | 4.4 | 1.5 | 4.6 | 1.6 |
+| 50 lb | 8.7 | 3.1 | 8.9 | 3.1 |
+| **75 lb** | **5.8** | **2.0** | **5.9** | **2.1** |
+| 100 lb | 4.4 | 1.5 | 4.4 | 1.6 |
 
-The centered plate comes out about 5 % stronger at every load. The standard plate's numbers here differ slightly from the
+The centered plate (v1.3, R20 sweep) is level with or slightly above the standard plate at every load. (The v1.2 centered plate,
+with a straight yoke-to-handle side, was about 5 % stronger but stopped the yoke at +48°, too little for curls and flies.) The standard plate's numbers here differ slightly from the
 main page because the main page used a finer mesh; the comparison above uses the same settings for both.
 
-**Where it is highest.** The worst case for the centered plate is the load reacted at the wrist pad. For the standard plate
-it is the load reacted at the handle. The centered plate also uses about 21 % less plastic (78 vs 98 cm³ before the edge
+**Where it is highest.** The worst case for the centered plate is the load reacted at the handle, next to the R20 sweep. For the standard plate
+it is the load reacted at the handle. The centered plate also uses about 24 % less plastic (75 vs 99 cm³ before the edge
 radius).
 
 **How to read it.** A safety factor (SF) is how many times stronger the part is than the stress it sees. SF 2 means it would
@@ -57,10 +59,11 @@ Same method as the main page:
   may be higher than shown.
 - **Material:** ELEGOO PETG-CF, 51 MPa along the layers (the plate prints flat, so the load runs along the layers).
 - **Knock-downs:** × 0.75 for printed walls and infill (**6 walls, 40 % gyroid**); × 0.35 for fatigue.
-- **Yoke swing:** checked on the final plate shape. The yoke swings freely from −81° to +48°; a cable lateral raise needs
-  about −47° to +15°.
+- **Yoke swing:** checked on the final plate shape. The yoke swings freely from −81° to +103°. With the cable from a Voltra
+  8 in. off the floor, the movements need: lateral raise −41° to +29°, bicep curl −37° to +92°, Bayesian curl −50° to +95°;
+  chest fly (cables just below shoulder height) −47° to +75°. All are covered.
 - **Not modelled:** print defects and poor layer bonding, wet filament, impact, heat, UV ageing, bearing and sleeve wear,
-  and the bearing pockets cut into the plate face (the 2D model treats the plate as a full 10 mm thick).
+  and the bearing seats cut into the plate (the 2D model treats the plate as a full 10 mm thick).
 
 **These figures only apply if you print as specified** (see [PRINT-SETTINGS.md](PRINT-SETTINGS.md)): PETG-CF, dried, 6 walls,
 40 % gyroid, plate printed flat. Other materials are untested here. **Never print it in PLA.**
