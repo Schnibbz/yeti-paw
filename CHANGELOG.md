@@ -8,6 +8,14 @@ Two numbered tracks, so a document update never bumps the hardware number:
 Every version is a tagged [GitHub Release](https://github.com/Schnibbz/yeti-paw/releases) with its own files attached, so
 older versions stay downloadable. The files in the repo itself are always the latest.
 
+## Hardware v1.3.1 — 2026-10-17
+
+Cosmetic fix, no part or fit changes (same files, same names; v1.3 parts list unchanged).
+- **Centered-pivot plates: PAW logo re-centered.** The placement kept 6.5 mm off the bearing holes but only 2.5 mm off the
+  window, so the word sat closer to the window (visible gaps 6.2 mm window / 9.5 mm handle hole / 7.7 mm edge). It is now
+  placed by the gaps you see: 11.3 mm above, 11.2 mm below, 8.0 mm to the window and 8.0 mm to the handle hole, same
+  13.6 mm letters, tilted 16° along the bar, the left plate the mirror of the right. Project, STLs, STEPs and hero updated.
+
 ## Hardware v1.3 — 2026-10-17
 
 > ### ⚠️ Two parts changed. Buy the new ones.

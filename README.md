@@ -147,6 +147,7 @@ You'll need, beyond the parts in the BOM:
 Every release is tagged and archived on the [Releases](https://github.com/Schnibbz/yeti-paw/releases) page with its own
 files; the full list of changes is in the [CHANGELOG](CHANGELOG.md).
 
+- **v1.3.1** (Oct 2026): centered-pivot plates' PAW logo re-centered (cosmetic; no part changes).
 - **v1.3** (Oct 2026), **two parts changed** (see the notice at the top):
   - handle bearing: plain **R8-2RS** replaces the flanged FR8, on both plate variants (no flange pocket, one less support area);
   - carabiner eye: a solid bronze sleeve (McMaster 6391K256), flush both faces, replaces the wrapped flanged sleeve;
