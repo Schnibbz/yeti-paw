@@ -11,6 +11,8 @@ and flies). Everything else in the build is unchanged, so the yoke and pad dowel
 
 **Rated working load: 75 lb (34 kg)** on the cable, for repeated reps.
 
+**Smart cable machines can be set far above the rating.** A Voltra I, for example, goes up to 200 lb. Keep the setting at or below 75 lb.
+
 **Not physically load-tested.** The rating comes from analysis only (below); no unit has been proof-loaded.
 
 ## Results
@@ -33,7 +35,7 @@ settings, so their numbers compare directly:
 | **75 lb** | **5.8** | **2.0** | **5.9** | **2.1** |
 | 100 lb | 4.4 | 1.5 | 4.4 | 1.6 |
 
-The centered plate (v1.3, R20 sweep) is level with or slightly above the standard plate at every load. (The v1.2 centered plate,
+The centered plate (v1.3, R20 sweep) matches the standard plate within the same 2D check (identical static factors; the 1.5 vs 1.6 fatigue difference is rounding). The yoke and the pad dowel, not the plate, remain the weakest parts. (The v1.2 centered plate,
 with a straight yoke-to-handle side, was about 5 % stronger but stopped the yoke at +48°, too little for curls and flies.) The standard plate's numbers here differ slightly from the
 main page because the main page used a finer mesh; the comparison above uses the same settings for both.
 
@@ -61,7 +63,11 @@ Same method as the main page:
 - **Knock-downs:** × 0.75 for printed walls and infill (**6 walls, 40 % gyroid**); × 0.35 for fatigue.
 - **Yoke swing:** checked on the final plate shape. The yoke swings freely from −81° to +103°. With the cable from a Voltra
   8 in. off the floor, the movements need: lateral raise −41° to +29°, bicep curl −37° to +92°, Bayesian curl −50° to +95°;
-  chest fly (cables just below shoulder height) −47° to +75°. All are covered.
+  chest fly (cables just below shoulder height) −47° to +75°. These are covered at the modeled stances. With the cable
+  closer behind you (a Bayesian curl with the Voltra about 20 in. behind the shoulder or the upper arm 35° back, or a fly
+  with the cable exits close behind the shoulders) the yoke needs up to +110° to +122° in the first few degrees of the rep,
+  so it reaches its +103° stop and bears on the plate edge under the full cable load. Inspect that edge, and stand a little
+  further from the Voltra for those movements.
 - **Not modelled:** print defects and poor layer bonding, wet filament, impact, heat, UV ageing, bearing and sleeve wear,
   and the bearing seats cut into the plate (the 2D model treats the plate as a full 10 mm thick).
 

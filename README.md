@@ -11,6 +11,8 @@ on sealed ball bearings.
 **Rated working load: 75 lb (34 kg)** on the cable, for repeated reps. Not physically load-tested; the rating is from
 analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTORS.md).
 
+**Smart cable machines can be set far above the rating.** A Voltra I, for example, goes up to 200 lb. Keep the setting at or below 75 lb.
+
 <br clear="right">
 
 > ## ⚠️ Parts changed in v1.3
@@ -87,9 +89,11 @@ either plate. At the hardest point of the rep, a 20 lb cable puts about 17 lb on
 standard plates, and about 8 lb on the pad and 12 lb in the hand with the centered ones.
 
 - **Yoke swing (v1.3):** the side between the yoke and the handle is swept concave (R20), so the yoke can follow the cable
-  through curls and flies as well as lateral raises.
-- **Strength:** the same analysis as the standard plates; side by side, the centered plate is level with or slightly above the
-  standard plate at every load. The rating stays 75 lb. Full numbers: [Safety factors — centered-pivot plates](SAFETY-FACTORS-CENTERED.md)
+  through lateral raises, curls and flies at the stances modeled. With the cable close behind you (a close-stance Bayesian
+  curl or fly) it can still reach its stop in the first few degrees of the rep; see the
+  [centered-plate safety factors](SAFETY-FACTORS-CENTERED.md).
+- **Strength:** the same analysis as the standard plates; side by side, the centered plate matches the standard plate within
+  that check. The rating stays 75 lb, and the yoke, not the plate, is the weakest part. Full numbers: [Safety factors — centered-pivot plates](SAFETY-FACTORS-CENTERED.md)
   <sub>([PDF](yeti-paw-safety-factors-centered.pdf))</sub>.
 - **Files:** the [project](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-centered-plates-PROJECT.3mf),
   [STLs](stl/) and [STEPs](step/) (`yeti-paw-v1.3-centered-plate-left/right`). No CNC version yet.
@@ -145,7 +149,7 @@ files; the full list of changes is in the [CHANGELOG](CHANGELOG.md).
 - **v1.3** (Oct 2026), **two parts changed** (see the notice at the top):
   - handle bearing: plain **R8-2RS** replaces the flanged FR8, on both plate variants (no flange pocket, one less support area);
   - carabiner eye: a solid bronze sleeve (McMaster 6391K256), flush both faces, replaces the wrapped flanged sleeve;
-  - centered-pivot plates: the yoke-to-handle side swept R20 so the yoke follows the cable on curls and flies;
+  - centered-pivot plates: the yoke-to-handle side swept R20 so the yoke follows the cable on curls and flies (at the modeled stances);
   - handle research v2.0 (PDF) added.
 - **v1.2** (Oct 2026):
   - new carabiner yoke with a 3 mm radius on every edge, printed at 100 % infill;

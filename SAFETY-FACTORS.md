@@ -6,6 +6,8 @@ Designed by **Schnibbz** · YETI STRENGTH
 
 **Rated working load: 75 lb (34 kg)** on the cable, for repeated reps.
 
+**Smart cable machines can be set far above the rating.** A Voltra I, for example, goes up to 200 lb. Keep the setting at or below 75 lb.
+
 **Not physically load-tested.** The rating comes from analysis only (below); no unit has been proof-loaded.
 
 ## Results

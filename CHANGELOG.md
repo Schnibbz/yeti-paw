@@ -25,8 +25,10 @@ older versions stay downloadable. The files in the repo itself are always the la
   the handle seat was fit-tested on. The sleeve (0.500" ± 0.005") sits flush with both faces of the 1/2" eye, so the
   carabiner bears only on bronze. Why: the wrapped sleeve pressed in out of round and left the bottom rim bare plastic.
 - **Centered-pivot plates:** the yoke-to-handle side is swept concave (R20). The v1.2 straight side stopped the yoke at +48°;
-  curls and flies need up to +95°. Free swing is now −81° to +103°. Strength: level with or slightly above the standard plate
-  (100 lb cable: static 4.4, fatigue 1.6); rating unchanged at 75 lb.
+  curls and flies need up to +95°. Free swing is now −81° to +103°, which covers all four studied movements at the modeled
+  stances; with the cable close behind you (close-stance Bayesian curl or fly) the yoke can still reach the stop in the first
+  few degrees of the rep (correction added 2026-10-17 after review). Strength: matches the standard plate within the same 2D
+  check (100 lb cable: static 4.4, fatigue 1.6 vs 1.5); rating unchanged at 75 lb; the yoke remains the weakest part.
 - **Docs:** BOM (R8 from Amazon, bronze sleeve from McMaster-Carr), print settings, safety factors, build order.
 - **Files renamed** `yeti-paw-v1.2-*` → `yeti-paw-v1.3-*`. The v1.2 files are attached to the v1.2 release.
 
