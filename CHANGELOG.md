@@ -32,6 +32,21 @@ older versions stay downloadable. The files in the repo itself are always the la
 - **Docs:** BOM (R8 from Amazon, bronze sleeve from McMaster-Carr), print settings, safety factors, build order.
 - **Files renamed** `yeti-paw-v1.2-*` → `yeti-paw-v1.3-*`. The v1.2 files are attached to the v1.2 release.
 
+## Research v2.1 — 2026-10-17
+
+`research/yeti-paw-handle-research.pdf`, 34 pages. Revised after an independent critical review of v2.0.
+- **Yoke swing** reported as an envelope over every stance checked. The centered plate covers all four movements at the
+  modeled stance, but a Bayesian curl with the upper arm 35° back or the cable 20 in. away, and a fly with the cable exits
+  8 in. behind the shoulders, take the yoke 7–19° past its stop in the first few degrees of the rep, at full cable tension.
+- **New:** small / median / large lifter table (the headline numbers are device geometry plus limb length); peak pad push
+  and grip force over the whole rep; where the pad lifts off; wrist moment for all four handles (the centered pivot puts
+  roughly 2–4× the current pivot's wrist moment on the wrist at the hardest point, still well under a D-handle's);
+  stretched-position cable torque; the cuff comparison over a grid of cuff positions (the ranking flips, so "follows a cuff
+  most closely" is gone); handle tilt on the arm (±10°, ±20°), which moves the pad numbers most.
+- **Wording:** "+7–16 % more work" → "the same peak at about 6–14 % less weight"; "lifts off" never applied to the hand;
+  confidence "on the direction and rough size, not on exact pounds or feel"; offering both variants framed as a hypothesis
+  for a lifter trial; strength "matches the original plate within the same check"; rating 75 lb, a Voltra can be set higher.
+
 ## Research v2.0 — 2026-10-17
 
 `research/yeti-paw-handle-research.pdf`, 31 pages.

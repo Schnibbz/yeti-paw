@@ -61,9 +61,10 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
   Exploded views of the handle, yoke (with pivot section) and pad. Build order below.
 
 **Read the research**
-- **[Handle research (PDF)](research/yeti-paw-handle-research.pdf)** <sub>v2.0 · 31 pages</sub><br>
+- **[Handle research (PDF)](research/yeti-paw-handle-research.pdf)** <sub>v2.1 · 34 pages</sub><br>
   Standard vs centered pivot on four cable movements (lateral raise, bicep curl, Bayesian curl, chest fly): where the load
-  sits, resistance curves, and the hardware checks behind the centered plate.
+  sits, resistance curves, peak pad / grip / wrist loads, lifter size, and the hardware checks behind the centered plate.
+  Older versions are on the [Releases](https://github.com/Schnibbz/yeti-paw/releases) page.
 
 **Know its limits**
 - **[Safety factors](SAFETY-FACTORS.md)** <sub>([PDF](yeti-paw-safety-factors.pdf))</sub><br>
