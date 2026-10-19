@@ -23,7 +23,7 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
 > | **Handle bearing** · 2 per handle · both plate variants | FR8-2RS **flanged**, 1/2" × 1-1/8" × 5/16" | **R8-2RS plain** (no flange), same 1/2" × 1-1/8" × 5/16" | The press fit alone holds the bearing; the flange did nothing. Cheaper, and the plate loses its flange pocket and the support it needed. |
 > | **Carabiner eye sleeve** · 1 per yoke | uxcell **wrapped** flanged sleeve, 20 × 23 × 10 mm, Ø30 flange | **Solid bronze plain sleeve**, 3/4" bore × 7/8" OD × 1/2" long (McMaster **6391K256**) | The wrapped sleeve pressed in out of round and left the bottom edge of the eye bare plastic where the carabiner bears. The solid sleeve stays round and sits flush on both faces, so the carabiner only touches bronze. |
 >
-> **Don't mix versions.** v1.3 plates have no flange pocket, so an FR8 won't seat flush. The v1.3 yoke's eye bore is Ø22.29 for the 7/8" sleeve:
+> **Don't mix versions.** v1.3 plates have no flange pocket, so an FR8 won't seat flush. The v1.3 yoke's eye bore is Ø22.39 for the 7/8" sleeve:
 > the old 23 mm sleeve won't press in, and the new sleeve would be loose in a v1.2 yoke. Everything else is unchanged.
 
 ## Files
@@ -147,6 +147,7 @@ You'll need, beyond the parts in the BOM:
 Every release is tagged and archived on the [Releases](https://github.com/Schnibbz/yeti-paw/releases) page with its own
 files; the full list of changes is in the [CHANGELOG](CHANGELOG.md).
 
+- **v1.3.2** (Oct 2026): yoke eye bore Ø22.39, set by a printed press-fit test with the bronze sleeve (no new parts).
 - **v1.3.1** (Oct 2026): centered-pivot plates' PAW logo re-centered (cosmetic; no part changes).
 - **v1.3** (Oct 2026), **two parts changed** (see the notice at the top):
   - handle bearing: plain **R8-2RS** replaces the flanged FR8, on both plate variants (no flange pocket, one less support area);

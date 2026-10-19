@@ -8,6 +8,13 @@ Two numbered tracks, so a document update never bumps the hardware number:
 Every version is a tagged [GitHub Release](https://github.com/Schnibbz/yeti-paw/releases) with its own files attached, so
 older versions stay downloadable. The files in the repo itself are always the latest.
 
+## Hardware v1.3.2 — 2026-10-19
+
+Fit change from a printed test, no new parts.
+- **Carabiner yoke eye bore Ø22.29 → Ø22.39.** A three-coupon press-fit ladder (Ø22.19 / 22.29 / 22.39) cut from the real
+  eye, printed in PETG-CF and pressed with the McMaster 6391K256 bronze sleeve: Ø22.39 gave the right press. The sleeve's
+  spec OD (0.877″) alone was too tight in a printed eye. Yoke project, STL, STEP and CNC files updated.
+
 ## Hardware v1.3.1 — 2026-10-17
 
 Cosmetic fix, no part or fit changes (same files, same names; v1.3 parts list unchanged).

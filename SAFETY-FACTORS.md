@@ -35,7 +35,7 @@ loading. v1.2's stronger yoke adds margin at the same rating; it does not raise 
 
 **v1.3 parts change, same figures.** v1.3 swaps the flanged handle bearing for a plain R8 (the plate loses its flange pocket,
 so a little more plastic stays around the seat) and the wrapped eye sleeve for a solid bronze one (the eye bore shrinks from
-Ø22.9 to Ø22.29, so a little more plastic stays around the eye). Both changes only add material where the parts are loaded; the
+Ø22.9 to Ø22.39, so a little more plastic stays around the eye). Both changes only add material where the parts are loaded; the
 figures above were computed for v1.2 and are kept as the conservative values.
 
 **Why the 100 lb row is shown.** It shows how quickly the margin disappears: one pull at 100 lb is still inside static
