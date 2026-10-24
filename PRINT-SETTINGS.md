@@ -30,7 +30,7 @@ already set and painted:
 |---|---|---|---|---|
 | Side plate L and R | **Outer face DOWN** (the logo face is on the bed). Both on one bed. | 6 walls, 40 % gyroid | See below | ≈ 7.7 h for the pair |
 | Centered-pivot side plates L and R (variant) | Same as the side plates | Same | Same | ≈ 6.6 h for the pair |
-| Carabiner yoke | **Flat, band face down**. The eye is a straight Ø22.39 bore (no pocket in v1.3). | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 2.8 h |
+| Carabiner yoke | **Flat, band face down**. The eye is a straight Ø22.39 bore (no pocket in v1.3). | 6 walls, **100 %** (rectilinear) | Under the two pivot bosses only, **none inside the Ø12 pivot bores**. See below. | ≈ 3.2 h |
 | Pad dowel | **Upright**, standing on one end | **100 %** (rectilinear) | **Under the shoulder** where the Ø25.4 body overhangs the bottom D-stub, about 10 mm up. Support body in PETG-CF, **the 3 interface layers in PLA at zero gap**. PLA doesn't bond to PETG, so the shoulder prints flat and the support peels off clean. **None in the threaded holes.** 5 mm brim. | ≈ 3.9 h |
 
 ## Yoke — the details that matter
@@ -39,9 +39,11 @@ already set and painted:
 [`yeti-paw-v1.3-yoke-PROJECT.3mf`](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-yoke-PROJECT.3mf). It holds
 the exact settings below, which have been printed and checked.
 
-**YETI STRENGTH** is painted white on the yoke's bed face, the same way as PAW on the plates. The model has a 0.02 mm step
-where the letters are, so the slicer's paint has an edge to follow. It's far too shallow to print, so it costs no strength.
-About 1 mm of white (5 layers).
+**YETI STRENGTH** is painted white on **both faces** of the yoke (since v1.3.3): the bed face and the top face, mirrored so
+it reads correctly from each side. Same method as PAW on the plates: the model has a 0.02 mm step where the letters are, so
+the slicer's paint has an edge to follow. It's far too shallow to print, so it costs no strength. About 1 mm of white on each
+face (5 layers each). The prime tower sits in the open middle of the U, near the bed centre: towers near the bed edge can
+come loose, and then every colour swap purges onto the part.
 
 Every edge of the yoke has a 3 mm radius, including the round pivot bosses where they curve down to the bed. Tested on
 PETG-CF: support the **flat bottom of each boss only**. Up the steeper part of the curve, PETG prints on its own, and any

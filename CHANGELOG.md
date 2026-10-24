@@ -8,6 +8,14 @@ Two numbered tracks, so a document update never bumps the hardware number:
 Every version is a tagged [GitHub Release](https://github.com/Schnibbz/yeti-paw/releases) with its own files attached, so
 older versions stay downloadable. The files in the repo itself are always the latest.
 
+## Hardware v1.3.3 — 2026-10-24
+
+Cosmetic, no part or fit changes.
+- **Carabiner yoke: YETI STRENGTH on both faces.** The yoke project now paints the lettering on the top face too, mirrored
+  so it reads correctly from that side (same 0.02 mm step method, about 1 mm of white per face, no strength cost). The prime
+  tower moved to the open middle of the U, near the bed centre: a tower near the bed edge came loose in testing, and then
+  every colour swap purged onto the part. Print time ≈ 3.2 h (was 2.8). Print settings and parts list updated.
+
 ## Hardware v1.3.2 — 2026-10-19
 
 Fit change from a printed test, no new parts.

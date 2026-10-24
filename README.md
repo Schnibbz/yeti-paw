@@ -148,6 +148,7 @@ Every release is tagged and archived on the [Releases](https://github.com/Schnib
 files; the full list of changes is in the [CHANGELOG](CHANGELOG.md).
 
 - **v1.3.2** (Oct 2026): yoke eye bore Ø22.39, set by a printed press-fit test with the bronze sleeve (no new parts).
+- **v1.3.3** (Oct 2026): yoke lettering on both faces; prime tower moved to the bed centre (cosmetic, no part changes).
 - **v1.3.1** (Oct 2026): centered-pivot plates' PAW logo re-centered (cosmetic; no part changes).
 - **v1.3** (Oct 2026), **two parts changed** (see the notice at the top):
   - handle bearing: plain **R8-2RS** replaces the flanged FR8, on both plate variants (no flange pocket, one less support area);
