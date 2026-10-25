@@ -1,19 +1,14 @@
-<p align="center"><a href="https://github.com/Schnibbz"><img src="images/yeti-strength-banner.png" alt="YETI STRENGTH: home gym hardware, designed in the USA" width="100%"></a></p>
+<p align="center"><a href="https://github.com/Schnibbz"><img src="images/ys-header-yeti-paw.png" alt="No. 01, YETI PAW v1.3 lateral raise handle. YETI STRENGTH, designed by Schnibbz" width="100%"></a></p>
 
-# YETI PAW v1.3 — Lateral Raise Handle
+<img src="images/yeti-paw-hero.png" alt="YETI PAW render in the in-use orientation" width="340" align="right">
 
-Designed by **[Schnibbz](https://github.com/Schnibbz)** · YETI STRENGTH · [more home gym gear](https://github.com/Schnibbz)
+A 3D-printed lateral-raise cable attachment. Hold the handle palm-down, let the padded roller rest on your wrist, and clip the swivel yoke to the cable with a carabiner. The side plates and yoke are printed in PETG-CF. The handle is a Rogue H-5 on sealed ball bearings.
 
-<img src="images/yeti-paw-hero.png" alt="YETI PAW — in use orientation (render)" width="360" align="right">
+**Rated working load: 75 lb (34 kg)** on the cable, for repeated reps. The rating comes from analysis. It has not been physically load-tested. Inspect it before every session, and read [Safety factors](SAFETY-FACTORS.md).
 
-A 3D-printed lateral-raise cable attachment. You hold the handle palm-down, the padded roller rests on your wrist, and the
-swivel yoke clips to the cable with a carabiner. The side plates and yoke are printed in PETG-CF; the handle is a Rogue H-5
-on sealed ball bearings.
+Smart cable machines go far past the rating. A Voltra I, for example, goes up to 200 lb. Keep the setting at or below 75 lb.
 
-**Rated working load: 75 lb (34 kg)** on the cable, for repeated reps. Not physically load-tested; the rating is from
-analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTORS.md).
-
-**Smart cable machines can be set far above the rating.** A Voltra I, for example, goes up to 200 lb. Keep the setting at or below 75 lb.
+<sub>Designed by <a href="https://github.com/Schnibbz">Schnibbz</a> · <a href="https://github.com/Schnibbz">More YETI STRENGTH gear</a></sub>
 
 <br clear="right">
 
@@ -35,14 +30,14 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
   Every part with a link, quantities, and cost per unit and per pair.
 
 **Print the parts.** One YETI PAW is three Bambu Studio projects, one per print. Each one has its own checked settings.
-- **[⬇️ Side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-plates-PROJECT.3mf)** <sub>yeti-paw-v1.3-plates-PROJECT.3mf</sub><br>
+- **[Side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-plates-PROJECT.3mf)** <sub>yeti-paw-v1.3-plates-PROJECT.3mf</sub><br>
   Left and right plate together on one bed, with the PAW logo painted. Filament 1 = black PETG-CF, filament 2 = white PETG.
-- **[⬇️ Centered-pivot side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-centered-plates-PROJECT.3mf)** <sub>yeti-paw-v1.3-centered-plates-PROJECT.3mf · optional variant</sub><br>
+- **[Centered-pivot side plates (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-centered-plates-PROJECT.3mf)** <sub>yeti-paw-v1.3-centered-plates-PROJECT.3mf · optional variant</sub><br>
   Print these **instead of** the side plates above for a more balanced feel (see [below](#centered-pivot-variant)). Same
   filaments and settings.
-- **[⬇️ Carabiner yoke (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.3-yoke-PROJECT.3mf</sub><br>
+- **[Carabiner yoke (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-yoke-PROJECT.3mf)** <sub>yeti-paw-v1.3-yoke-PROJECT.3mf</sub><br>
   The yoke, with YETI STRENGTH painted on. Filament 1 = black PETG-CF, filament 2 = white PETG.
-- **[⬇️ Pad dowel (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-dowel-PROJECT.3mf)** <sub>yeti-paw-v1.3-dowel-PROJECT.3mf</sub><br>
+- **[Pad dowel (.3mf)](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-dowel-PROJECT.3mf)** <sub>yeti-paw-v1.3-dowel-PROJECT.3mf</sub><br>
   The dowel, standing upright. Black PETG-CF, plus a little PLA (any colour) for the support under its shoulder.
 - **[STL files](stl/)**<br>
   The four parts (plus the centered-pivot plates), already in print orientation, for any other printer or slicer.
@@ -54,7 +49,7 @@ analysis. **Inspect it before every session.** See [Safety factors](SAFETY-FACTO
   The four parts (plus the centered-pivot plates) as CAD solids, posed like the STLs. The yoke STEP carries a YETI STRENGTH engraving that the print files
   don't have. The side plates' 3 mm edge radius is only in the STLs and the 3MF, so
   add it in your CAD if you need it (outline and window, both faces).
-- **[Machined aluminium parts (CNC)](CNC-NOTES.md)**<br>
+- **[Machined aluminum parts (CNC)](CNC-NOTES.md)**<br>
   STEP files and shop drawings for having the side plates and the yoke machined instead of printed, with ordering and
   finishing notes. Use these files for a machine shop, not the ones in `step/`.
 
@@ -134,7 +129,7 @@ You'll need, beyond the parts in the BOM:
 5. **Fit the yoke to both plates first**, while the inside of each plate is easy to reach. Each side: shoulder bolt from the outside through the yoke sleeve and the 6000 bearing, then the M8 washer
    and nylock on the inside. Tighten to 35 in-lb. Assembly sheet 3b shows the stack.
 6. **Fit the dowel and handle between the plates**, PAW facing out on both plates.
-   - **Handle**, each end: button-head screw → aluminium spacer → bearing → aluminium spacer → handle. Blue Loctite on these
+   - **Handle**, each end: button-head screw → aluminum spacer → bearing → aluminum spacer → handle. Blue Loctite on these
      screws only; about 10 ft-lb, never more than 15.
    - **Pad**, each end: washer and 2" button-head screw into the dowel. Snug, no Loctite.
 7. **Clip on the carabiner** through the bronze eye and lock the screw gate.
@@ -191,6 +186,6 @@ damage arising from building or using it.
 **Affiliate links.** The Amazon links in the BOM are affiliate links. If you buy through them, I earn a small commission
 on the sale, at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.
 
----
+<br>
 
-<p align="center"><b>YETI STRENGTH</b> · designed by <a href="https://github.com/Schnibbz">Schnibbz</a> · more home gym gear on the <a href="https://github.com/Schnibbz">home page</a></p>
+<p align="center"><a href="https://github.com/Schnibbz"><img src="images/ys-footer.png" alt="YETI STRENGTH. Schnibbz, designed in the USA." width="100%"></a></p>
