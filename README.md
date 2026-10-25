@@ -1,6 +1,8 @@
+<p align="center"><a href="https://github.com/Schnibbz"><img src="images/yeti-strength-banner.png" alt="YETI STRENGTH: home gym hardware, designed in the USA" width="100%"></a></p>
+
 # YETI PAW v1.3 — Lateral Raise Handle
 
-Designed by **Schnibbz** · YETI STRENGTH
+Designed by **[Schnibbz](https://github.com/Schnibbz)** · YETI STRENGTH · [more home gym gear](https://github.com/Schnibbz)
 
 <img src="images/yeti-paw-hero.png" alt="YETI PAW — in use orientation (render)" width="360" align="right">
 
@@ -188,3 +190,7 @@ damage arising from building or using it.
 
 **Affiliate links.** The Amazon links in the BOM are affiliate links. If you buy through them, I earn a small commission
 on the sale, at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.
+
+---
+
+<p align="center"><b>YETI STRENGTH</b> · designed by <a href="https://github.com/Schnibbz">Schnibbz</a> · more home gym gear on the <a href="https://github.com/Schnibbz">home page</a></p>
