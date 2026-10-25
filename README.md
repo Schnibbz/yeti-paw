@@ -1,6 +1,6 @@
 <p align="center"><a href="https://github.com/Schnibbz"><img src="images/ys-header-yeti-paw.png" alt="No. 01, YETI PAW v1.3 lateral raise handle. YETI STRENGTH, designed by Schnibbz" width="100%"></a></p>
 
-<img src="images/yeti-paw-hero.png" alt="YETI PAW render in the in-use orientation" width="340" align="right">
+<p align="center"><img src="images/yeti-paw-hero.png" alt="YETI PAW render in the in-use orientation" width="420"></p>
 
 A 3D-printed lateral-raise cable attachment. Hold the handle palm-down, let the padded roller rest on your wrist, and clip the swivel yoke to the cable with a carabiner. The side plates and yoke are printed in PETG-CF. The handle is a Rogue H-5 on sealed ball bearings.
 
@@ -10,7 +10,6 @@ Smart cable machines go far past the rating. A Voltra I, for example, goes up to
 
 <sub>Designed by <a href="https://github.com/Schnibbz">Schnibbz</a> · <a href="https://github.com/Schnibbz">More YETI STRENGTH gear</a></sub>
 
-<br clear="right">
 
 > ## ⚠️ Parts changed in v1.3
 > **Two parts are different from v1.2. Buy the new ones: the old ones don't fit the v1.3 files, and the new ones don't fit v1.2 prints.**
@@ -71,7 +70,7 @@ Smart cable machines go far past the rating. A Voltra I, for example, goes up to
 
 ## Centered-pivot variant
 
-<img src="images/yeti-paw-centered-hero.png" alt="YETI PAW with the centered-pivot side plates (render)" width="300" align="right">
+<p align="center"><img src="images/yeti-paw-centered-hero.png" alt="YETI PAW with the centered-pivot side plates (render)" width="380"></p>
 
 The side plates come in two versions. Both use the same handle, pad, yoke, bearings and hardware, and build the same way;
 only the plates differ.
@@ -96,7 +95,6 @@ standard plates, and about 8 lb on the pad and 12 lb in the hand with the center
 - **Files:** the [project](https://github.com/Schnibbz/yeti-paw/raw/main/yeti-paw-v1.3-centered-plates-PROJECT.3mf),
   [STLs](stl/) and [STEPs](step/) (`yeti-paw-v1.3-centered-plate-left/right`). No CNC version yet.
 
-<br clear="right">
 
 ## Before you start
 
